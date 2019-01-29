@@ -1,0 +1,29 @@
+{
+   "name": "typeorm-demo",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon --exec ts-node src/index.ts"
+   },
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/body-parser": "^1.17.0",
+      "@types/cors": "^2.8.4",
+      "@types/morgan": "^1.7.35",
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "2.5.2"
+   },
+   "dependencies": {
+      "body-parser": "^1.18.3",
+      "cors": "^2.8.5",
+      "express": "^4.16.4",
+      "morgan": "^1.9.1",
+      "mysql": "^2.16.0",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "^0.2.11"
+   }
+}
